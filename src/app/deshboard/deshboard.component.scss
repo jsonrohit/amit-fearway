@@ -1,0 +1,35 @@
+.bg-gray{
+background-color:#d2d2d2;
+}
+.border-btm{
+    border-bottom: 5px solid red;
+}
+
+  
+
+.img-position{
+    position: absolute;
+}
+
+.mrgn-botm{
+    margin-bottom: 78px;
+}
+.info-row{
+display: flex;
+gap: 20px;
+}
+.strip-stle{
+    padding: 20px 0px 35px 0px;
+}
+
+@media only screen and (max-width:720px){
+    .img-position{
+        position: relative;
+    } 
+    .info-row{
+        display: grid;
+        gap: 0px;
+        }
+}
+
+
